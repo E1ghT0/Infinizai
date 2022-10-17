@@ -20,12 +20,14 @@ img {
 
 button {
     border: none;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
     height: 100%;
     line-height: 1;
-    background-color: black;
+    background:linear-gradient(to right, black 53%, #57B8FF 53%);
 }
 
 .header {
@@ -33,8 +35,13 @@ body {
     justify-content: space-around;
 }
 
+.logo {
+    padding-top: 20px;
+}
+
 .home-link {
     /* padding-left: 132px; */
+    padding-top: 38px;
 }
 
 .ul-home-link {
@@ -50,6 +57,24 @@ a {
     margin-right: 5px;
 }
 
+.home-link-a {
+    margin-right: 60px;
+} 
+
 img.vector {
     vertical-align: top;
+    color:aliceblue;
+}
+
+.ul-button {
+    display: flex;
+}
+
+.button {
+    padding-top: 15px;
+}
+
+.basket {
+    padding-top: 10px;
+    padding-right: 15px;
 }
