@@ -27,7 +27,7 @@ button {
 body {
     height: 100%;
     line-height: 1;
-    background:linear-gradient(to right, black 53%, #57B8FF 53%);
+    background:linear-gradient(to right, black 51%, #57B8FF 51%);
 }
 
 .header {
@@ -40,8 +40,9 @@ body {
 }
 
 .home-link {
-    /* padding-left: 132px; */
+    padding-right: 167px;
     padding-top: 38px;
+    padding-left: 167px;
 }
 
 .ul-home-link {
@@ -75,6 +76,11 @@ img.vector {
 }
 
 .basket {
+    background: none;
     padding-top: 10px;
     padding-right: 15px;
+}
+
+.contact {
+    background: none;
 }
