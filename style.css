@@ -101,25 +101,58 @@ img.vector {
 }
 
 .social {
-    margin-right: 80px;
+    margin-right: 55px;
     text-decoration: none;
     color: gray;
 }
 
 .gaming {
-    padding-bottom: 236px;
+    /* padding-bottom: 236px; */
+    padding-top: 80px;
 }
 
 .lorem-p {
     color: gray;
 }
+
+.lorem {
+    padding-top: 45px;
+}
+
 .guy {
     position: absolute;
-    right: 10px;
-    top: 296px;
+    right: 240px;
+    top: 140px;
 }
 
 .view-a {
     color: aliceblue;
     margin-right: 74px;
 }
+
+.pin {
+    display: flex;
+}
+
+.pin li {
+    padding-right: 74px;
+    padding-top: 30px;
+}
+
+.pin {
+    padding-top: 53px;
+}
+
+.main-text-1 {
+    padding-left: 100px;
+}
+
+.preview-tabs-link {
+    color: #57B8FF;
+}
+
+.more {
+    border: 24px solid #57B8FF;
+    background: #57B8FF;
+}
+
